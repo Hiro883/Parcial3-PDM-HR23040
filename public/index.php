@@ -46,7 +46,7 @@ $container = $containerBuilder->build();
 AppFactory::setContainer($container);
 $app = AppFactory::create();
 $callableResolver = $app->getCallableResolver();
-$app->setBasePath('/APIHR23040/public');
+$app->setBasePath('');
 
 // Add Routing Middleware
 $app->addRoutingMiddleware();
